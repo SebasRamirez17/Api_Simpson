@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(Img/fondo-de-bart-simpsons.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+h1{
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-family: fantasy;
+  color: rgb(0, 0, 0);
+  text-shadow: 7px 9px 4px rgba(255, 255, 255, 0.76);
+}
+#card{
+  width: 30rem;
+  height: 30rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  border: solid 3px rgb(0, 0, 0);
+  background-color: rgba(76, 177, 227, 0.562) ;
+  
+}
+
+#img{
+  width: 100%;
+  height: 100%;
+}
+
+P{
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 7px 4px 4px rgba(255, 255, 255, 0.76);
+}
+
+#btn-generate{
+  padding: 3px;
+  margin-top: 14rem;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  border: solid 3px black;
+  background-color: rgb(130, 190, 216);
+}
+
+#btn-generate:hover{
+  background-color: yellowgreen;
+}
+
